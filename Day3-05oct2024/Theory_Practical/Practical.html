@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <!-- fieldset and legend -->
+        <fieldset>
+            <legend>Personal Info</legend>
+        <label for="name">Enter Full Name:</label><br>
+        <input type="text" id="name" name="name" value="Dnyaneshwari" autocomplete="on"><br><br>
+        <label for="password">Enter password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="phone">Enter Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <hr>
+    
+    <!-- radio buttons -->
+     
+        <label for="select">Select your skill</label><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="Javascript">
+        <label for="javascript">Javascript</label><br>
+        <input type="submit"><br><br>
+     
+
+     <!-- checkboxes -->
+    
+        <label for="select">Select your subjects</label><br>
+        <input type="checkbox" id="maths" name="subject" value="Mathematics">
+        <label for="maths">Mathematics</label><br>
+        <input type="checkbox" id="ai" name="subject" value="Artificial Intellegence">
+        <label for="ai">Artificial Intellegence</label><br>
+        <input type="checkbox" id="dl" name="subject" value="Deep Learning">
+        <label for="dl">Deep Learning</label><br>
+        <input type="checkbox" id="cc" name="subject" value="Cloud Computing">
+        <label for="cc">Cloud Computing</label><br><br>
+        <hr>
+
+    <!-- select option -->
+        <label for="education"><b>Your Higher Education</b></label><br>
+        <select id="education" name="education"><br>
+            <option value="Secondary Highschool" selected>Secondary Highschool</option>
+            <option value=" Higher Secondary Highschool">Higher Secondary Highschool</option>
+            <option value="Under Graduation" >Under Graduation</option>
+            <option value="Post Graduation" >Post Graduation</option>
+        </select>
+     <br>
+     <hr>
+
+
+    <h3>Message</h3>
+     <!-- textarea field -->
+     <textarea name="message" rows="4" cols="30">Dnyaneshwari Jadhav.</textarea></form><br><hr>
+    
+     <!-- submit and reset button -->
+     <input type="submit" value="submit">
+     <input type="reset" value="reset"><br><hr>
+    
+    <!-- alert button -->
+    <button type="button" onclick="alert('Your Form Submitted Successfully')">Click Me</button> <br>
+
+    <!-- datalists -->
+     <p>Languages</p>
+    <input list="languages">
+    <datalist id="languages">
+      <option value="html"></option>
+      <option value="css"></option>
+      <option value="javascript"></option>
+      <option value="react.js"></option>
+    </datalist><br>
+    <hr>
+
+    <!-- date format -->
+    <label for="date">Enter your Date</label><br>
+    <input type="date" id="date" name="date"><br>
+    <hr>
+
+    <!-- file input -->
+     <label for="file">Enter file</label><br>
+     <input type="file" id="file" name="file">
+     <hr>
+
+     <!-- image format -->
+     <label for="image">Insert Image</label><br>
+     <input type="image" src="./images.jpeg" alt="image" width="100" height="48"><br><hr>
+    
+     <!-- week input -->
+     <label for="week">Week</label><br>
+     <input type="week" id="week" name="week"><br><hr>
+    
+     <!-- time format -->
+     <label for="time">Time</label><br>
+     <input type="time" id="time" name="time"><br><hr>
+    
+     <!-- range format -->
+     <label for="range">Range</label><br>
+     <input type="range" id="range" name="range"><br><hr>
+
+    <!-- search format -->
+     <label for="search">Search</label><br>
+     <input type="search" id="search" name="search" value="Search"><br><hr>
+
+    <!-- readonly and disabled -->
+     <label for="name">Enter Full Name:</label><br>
+     <input type="text" id="name" name="name" value="Dnyaneshwari" readonly ><br><br>
+        <label for="password">Enter password:</label><br>
+        <input type="password" id="password" name="password" value="abc" disabled><br><br>
+
+    <!-- size attributes     -->
+    <label for="name">Enter Full Name:</label><br>
+    <input type="text" id="name" name="name" size="20" ><br><br>
+        
+    <!-- maxlength attributes -->
+    <label for="password">Enter password:</label><br>
+    <input type="password" id="password" name="password" maxlength="6"><br><br><hr>
+
+    <!-- min and maz attributes -->
+    <label for="datemax">Enter a date before 2005-01-01:</label>
+    <input type="date" id="datemax" name="datemax" max="2005-12-31"><br><br>
+  
+    <label for="datemin">Enter a date after 2000-01-01:</label>
+    <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+    
+
+     
+
+
+</fieldset>
+</form>
+
+</body>
+</html>
