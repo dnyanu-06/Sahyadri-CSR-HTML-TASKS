@@ -1,0 +1,108 @@
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize{
+    text-transform: capitalize;
+}
+
+p.none {
+    text-transform: none;
+}
+
+p.inherit {
+    text-transform: inherit;
+}
+
+p.initial {
+    text-transform: initial;
+}
+
+p.cal {
+    text-transform: calc();
+}
+
+p.line-height {
+    line-height: 5px;
+}
+
+p.height {
+    line-height: -7px;
+}
+
+/* text indention */
+
+h3{
+
+    text-indent:50px;
+}
+
+/* letter spacing */
+h2 {
+    letter-spacing: 3px;
+}
+
+h4 {
+    /* text-decoration-line: overline; */
+    word-spacing: 4px;
+}
+
+h1 {
+    text-shadow: 2px 2px red;
+}
+
+h1.shadow {
+    text-shadow: 2px 2px 3px blue;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ol.b {
+    list-style-type: lower-roman;
+}
+
+ol.c {
+    list-style-type: upper-alpha;
+}
+
+ol.d {
+    list-style-type: lower-latin;
+}
+
+ul.e {
+    
+    list-style-position: inside;
+}
+
+ul.f {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+p.a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.c {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*default */
+p.d {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.e {
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+}
+
