@@ -22,9 +22,6 @@ p.initial {
     text-transform: initial;
 }
 
-p.cal {
-    text-transform: calc();
-}
 
 p.line-height {
     line-height: 5px;
